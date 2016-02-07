@@ -1,0 +1,28 @@
+
+body {
+  font-size: 14px;
+  font-family: sans-serif;
+  padding: 4em 0;
+}
+div.content {
+  width: 60%;
+  margin: auto;
+}
+
+/* Format headings */
+h1, h3 {
+  margin-bottom: 0.1em;
+  font-weight: 300;
+}
+h1 {
+  font-weight: 500;
+  font-size: 4em;
+  margin-left: -0.5em;
+}
+h3 {
+  font-size: 2em;
+}
+
+input, button {
+  font-size: 1em;
+}

@@ -1,0 +1,24 @@
+<!DOCTYPE>
+<html>
+<head>
+  <link href="/view/main.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+  <div class="content">
+    <h1>FCC: file metadata</h1>
+
+    <h3>Upload file form:</h3>
+    <br><br>
+    <div class="inline">
+      <form action="/" method="post" enctype="multipart/form-data" id="upload">
+        <input type="file" name="file">
+        <button type="submit">Upload</button>
+      </form>
+    </div>
+  </div>
+
+  <script type="text/javascript" src="/libraries/jquery-1.12.0.min.js"></script>
+  <script type="text/javascript" src="/libraries/jquery.form.js"></script>
+  <script type="text/javascript" src="/app/client/upload.client.js"></script>
+</body>
+</html>
